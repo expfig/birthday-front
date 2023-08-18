@@ -10,6 +10,21 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
 `;
+const WrapperContent = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+const WrapperLoading = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
 const Header = styled.div`
   width: 100%;
   height: 40px;
@@ -58,4 +73,13 @@ const Section = styled.section`
 /**
  * EXPORT
  */
-export { Container, Header, SubHeader, SubTitleHeader, Title, Section };
+export {
+  Container,
+  WrapperContent,
+  WrapperLoading,
+  Header,
+  SubHeader,
+  SubTitleHeader,
+  Title,
+  Section,
+};
